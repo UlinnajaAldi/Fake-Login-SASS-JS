@@ -1,0 +1,105 @@
+//font
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+//variable
+$primary-color : #FFFFFF;
+$secondary-color : #4461F2;
+$text-color : #4F555A;
+$st-color : #EAF0F7;
+//style
+body{
+    // font-family: 'Gilroy-Bold', sans-serif;
+    // font-family: 'Gilroy-Heavy', sans-serif;
+    // font-family: 'Gilroy-Light', sans-serif;
+    // font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+    background-color: #14162E;
+    color: $primary-color;
+    background-image: url(../img/bg.png);
+    background-position: 291px 0px 0px 142px;
+    background-repeat: no-repeat;
+    background-size: 63%;
+}
+
+//navbar
+.custom-nav{
+    background-color: none ;
+    #navbarNav{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color: $primary-color;
+                    font-family: 'Gilroy-Medium', sans-serif;
+                    margin-left: 2em;
+                }
+                .home{
+                    margin-left: 0;
+                }
+                .dropdown-custom{
+                    border-style: none;
+                    .dropdown-item{
+                        color: $primary-color;
+                        margin-left: 1em;
+                        &:hover{
+                            color : $secondary-color;
+                        }
+                    }
+                }
+                .register-button{
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                    border: 0   ;
+                    transition:ease;
+                    &:hover{
+                        background-color: $secondary-color;
+                        color: $primary-color;
+                    }
+                }
+                .nav-link-active{
+                    color: $secondary-color;
+                    border-bottom: 2px solid $secondary-color;
+                    transition:ease;
+                }
+                .font-bold{
+                    font-family: 'Gilroy-Bold', sans-serif;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:992px) {
+        margin: auto;
+    }
+}
+
+//custom-right
+.custom-section{
+    margin-top:10em;
+    margin-left: 0.5em;
+    .utama {
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+    .biasa{
+        font-family: 'Gilroy-Medium', sans-serif;
+        a{
+            text-decoration: none;
+            color: $secondary-color;
+            font-family: 'Gilroy-Bold', sans-serif;
+            &:hover{
+                color: darken($secondary-color, $amount: 10%);
+            }
+        }
+
+    }
+    .form-custom{
+        color: $text-color;
+        .form-control .form-select{
+            background-color: #EAF0F7;
+        }
+        #submit #logout{
+            background-color: $secondary-color;
+            &:hover{
+                background-color: darken($secondary-color, $amount: 10%);
+            }
+        }
+    }
+}

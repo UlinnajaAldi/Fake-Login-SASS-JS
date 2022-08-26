@@ -1,0 +1,86 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+body {
+  font-family: "Gilroy-Regular", sans-serif;
+  background-color: #14162E;
+  color: #FFFFFF;
+  background-image: url(../img/bg.png);
+  background-position: 291px 0px 0px 142px;
+  background-repeat: no-repeat;
+  background-size: 63%;
+}
+
+.custom-nav {
+  background-color: none;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #FFFFFF;
+  font-family: "Gilroy-Medium", sans-serif;
+  margin-left: 2em;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .home {
+  margin-left: 0;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .dropdown-custom {
+  border-style: none;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .dropdown-custom .dropdown-item {
+  color: #FFFFFF;
+  margin-left: 1em;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .dropdown-custom .dropdown-item:hover {
+  color: #4461F2;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .register-button {
+  background-color: #FFFFFF;
+  color: #4461F2;
+  border: 0;
+  transition: ease;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .register-button:hover {
+  background-color: #4461F2;
+  color: #FFFFFF;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link-active {
+  color: #4461F2;
+  border-bottom: 2px solid #4461F2;
+  transition: ease;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .font-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+}
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin: auto;
+  }
+}
+
+.custom-section {
+  margin-top: 10em;
+  margin-left: 0.5em;
+}
+.custom-section .utama {
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.custom-section .biasa {
+  font-family: "Gilroy-Medium", sans-serif;
+}
+.custom-section .biasa a {
+  text-decoration: none;
+  color: #4461F2;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.custom-section .biasa a:hover {
+  color: #1439ef;
+}
+.custom-section .form-custom {
+  color: #4F555A;
+}
+.custom-section .form-custom .form-control .form-select {
+  background-color: #EAF0F7;
+}
+.custom-section .form-custom #submit #logout {
+  background-color: #4461F2;
+}
+.custom-section .form-custom #submit #logout:hover {
+  background-color: #1439ef;
+}/*# sourceMappingURL=main.css.map */
