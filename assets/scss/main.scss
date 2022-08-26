@@ -1,6 +1,5 @@
 //font
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 //variable
 $primary-color : #FFFFFF;
 $secondary-color : #4461F2;
@@ -8,11 +7,8 @@ $text-color : #4F555A;
 $st-color : #EAF0F7;
 //style
 body{
-    // font-family: 'Gilroy-Bold', sans-serif;
-    // font-family: 'Gilroy-Heavy', sans-serif;
-    // font-family: 'Gilroy-Light', sans-serif;
-    // font-family: 'Gilroy-Medium', sans-serif;
-    font-family: 'Gilroy-Regular', sans-serif;
+    // font-weight: 500;
+    font-family: 'Roboto', sans-serif;
     background-color: #14162E;
     color: $primary-color;
     background-image: url(../img/bg.png);
@@ -29,7 +25,7 @@ body{
             .nav-item{
                 .nav-link{
                     color: $primary-color;
-                    font-family: 'Gilroy-Medium', sans-serif;
+                    font-weight: 500;
                     margin-left: 2em;
                 }
                 .home{
@@ -61,7 +57,7 @@ body{
                     transition:ease;
                 }
                 .font-bold{
-                    font-family: 'Gilroy-Bold', sans-serif;
+                    font-weight: 700;
                 }
             }
         }
@@ -76,14 +72,14 @@ body{
     margin-top:10em;
     margin-left: 0.5em;
     .utama {
-        font-family: 'Gilroy-Bold', sans-serif;
+        font-weight: 700;
     }
     .biasa{
-        font-family: 'Gilroy-Medium', sans-serif;
+        font-weight: 500;
         a{
             text-decoration: none;
             color: $secondary-color;
-            font-family: 'Gilroy-Bold', sans-serif;
+            font-weight: 700;
             &:hover{
                 color: darken($secondary-color, $amount: 10%);
             }
