@@ -61,6 +61,12 @@ body {
 .custom-section .utama {
   font-weight: 700;
 }
+.custom-section .utama #roles {
+  font-weight: 900;
+}
+.custom-section .utama #nama {
+  font-weight: 900;
+}
 .custom-section .biasa {
   font-weight: 500;
 }

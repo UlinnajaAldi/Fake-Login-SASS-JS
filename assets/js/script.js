@@ -68,15 +68,19 @@ function klik(){
         }
     }else if(submitButton.textContent == "Sign in" || submitButton){
         if(inputUser.value == "admin" && inputPassword.value == "admin"){
+            localStorage.setItem("Validasi",  Date.now());
+            localStorage.setItem("User", "Lord");
+            localStorage.setItem("Password", "admin");
+            localStorage.setItem("Role", "Admin")
             loginElse.innerHTML = "";
             formCustom.classList.add("d-none");
             sectionCustom.classList.add("d-none");
 
             registerButton.classList.add("d-none")
             signinButton.classList.add("d-none")
-            
-            nama.innerText = "Lord!";
-            roles.innerText = "Admin";
+
+            nama.innerText = localStorage.getItem("User")+"!";
+            roles.innerText = localStorage.getItem("Role");
             logoutButton.classList.remove("d-none");
             loginTeks.classList.remove("d-none");
 
